@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Protecting Computes with Whitelists and Manifests :: Programming Philosophy — Understanding the Fundamental Nature of Programming</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Photo by Mike Szczepanski on Unsplash
+We’ve added whitelists to Computes to help you protect your network against malicious or unwanted task execution. You will need to run version 14.0.0 or higher to get the new whitelist functionality. If you want to get up and running quickly and explore the whitelists later, check out the Getting Startedguide to set up an open whitelist.### What’s changed?
+There are two changes that will be immediately noticeable."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2018-06-20_protecting-computes-with-whitelists-and-manifests/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Protecting Computes with Whitelists and Manifests :: Programming Philosophy — Understanding the Fundamental Nature of Programming" />
+<meta name="twitter:description" content="Photo by Mike Szczepanski on Unsplash
+We’ve added whitelists to Computes to help you protect your network against malicious or unwanted task execution. You will need to run version 14.0.0 or higher to get the new whitelist functionality. If you want to get up and running quickly and explore the whitelists later, check out the Getting Startedguide to set up an open whitelist.### What’s changed?
+There are two changes that will be immediately noticeable." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="Jade Meskill" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Protecting Computes with Whitelists and Manifests :: Programming Philosophy — Understanding the Fundamental Nature of Programming">
+<meta property="og:description" content="Photo by Mike Szczepanski on Unsplash
+We’ve added whitelists to Computes to help you protect your network against malicious or unwanted task execution. You will need to run version 14.0.0 or higher to get the new whitelist functionality. If you want to get up and running quickly and explore the whitelists later, check out the Getting Startedguide to set up an open whitelist.### What’s changed?
+There are two changes that will be immediately noticeable." />
+<meta property="og:url" content="/posts/2018-06-20_protecting-computes-with-whitelists-and-manifests/" />
+<meta property="og:site_name" content="Protecting Computes with Whitelists and Manifests" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2018-06-20 03:05:22.409 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2018-06-20_protecting-computes-with-whitelists-and-manifests/">Protecting Computes with Whitelists and Manifests</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2018-06-20
+        </span>
+      
+      <span class="post-author">— Written by Jade Meskill</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/docker/">Docker</a>&nbsp;
+        
+          #<a href="/tags/decentralization/">Decentralization</a>&nbsp;
+        
+          #<a href="/tags/computes/">Computes</a>&nbsp;
+        
+          #<a href="/tags/distributed-computing/">Distributed Computing</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      
+
+<p><img src="https://cdn-images-1.medium.com/max/2560/0*14xGTRgY9UA5T30f" alt="image" /></p>
+
+<p>Photo by <a href="https://unsplash.com/@youngprodigy3?utm_source=medium&amp;amp;utm_medium=referral">Mike Szczepanski</a> on <a href="https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral">Unsplash</a></p>
+
+<p>We’ve added whitelists to Computes to help you protect your network against malicious or unwanted task execution. You will need to run version 14.0.0 or higher to get the new whitelist functionality. If you want to get up and running quickly and explore the whitelists later, check out the <a href="https://docs.computes.com/v1.0/docs/getting-started">Getting Started</a>guide to set up an open whitelist.### What’s changed?</p>
+
+<p>There are two changes that will be immediately noticeable.</p>
+
+<ol>
+<li>When starting the computes-daemon you will need to pass the <code>COMPUTES_WHITELIST</code> environment variable or <code>--whitelist</code> parameter.</li>
+<li>All task definitions must provide a manifest.### A Simple Manifest</li>
+</ol>
+
+<p>Since you will be required to reference your manifest in the whitelists, let’s start by creating a simple manifest for a docker image.
+<code>{  
+  &amp;#34;*&amp;#34;: {  
+    &amp;#34;image&amp;#34;: &amp;#34;computes/fibonacci-sum-split:latest&amp;#34;  
+  }  
+}</code></p>
+
+<p>The <code>*</code> represents the platforms that this image will run on. In this case, the <code>*</code> means to use this image for all platforms.</p>
+
+<p>We need to add this manifest to IPFS in order to reference it in our task and whitelist.
+<code>cat manifest.json | ipfs dag put  
+&amp;gt; zdpuArJcUhve8GiwWQM5nhAKfzc3LPztg1EsoYxbpufAzo4Dr</code></p>
+
+<p>Now that we have the CID of the manifest, we can add it as an authorized manifest in our whitelist.</p>
+
+<h3 id="a-simple-whitelist">A Simple Whitelist</h3>
+
+<p>A whitelist is a list of manifests that are authorized to run on your Computes node. Let’s use the manifest we created above and allow it to be used in our network.
+<code>{  
+  &amp;#34;runners&amp;#34;: {  
+    &amp;#34;docker-json-runner&amp;#34;: {  
+      &amp;#34;manifests&amp;#34;: [  
+        { &amp;#34;/&amp;#34;: &amp;#34;zdpuArJcUhve8GiwWQM5nhAKfzc3LPztg1EsoYxbpufAzo4Dr&amp;#34; }  
+      ]  
+    }  
+  }  
+}</code></p>
+
+<p>In our case, we are authorizing the <code>docker-json-runner</code> to use our manifest. Let’s add this whitelist to IPFS and get ready to use it in a task.
+<code>cat whitelist.json | ipfs dag put  
+&amp;gt; zdpuAonyLqnX8V4E7p49VfKg4mCX2qpMzGKxA9ad9WhhQhma3</code></p>
+
+<h3 id="use-the-whitelist">Use the Whitelist</h3>
+
+<p>Let’s run Computes using this whitelist.
+<code>computes-daemon --whitelist zdpuAonyLqnX8V4E7p49VfKg4mCX2qpMzGKxA9ad9WhhQhma3 run</code></p>
+
+<h3 id="a-whitelisted-task">A Whitelisted Task</h3>
+
+<p>This is the biggest change to Computes from prior versions. Previously you could specify the docker image you wanted to run in the <code>metadata</code> property. This allowed any docker image to run on your machine, and also would not let you change the docker image on different platforms if necessary. Now, you can specify the manifest in your task like so:
+<code>{  
+  &amp;#34;input&amp;#34;: {  
+    &amp;#34;dataset&amp;#34;: 2  
+  },  
+  &amp;#34;taskDefinition&amp;#34;: {  
+    &amp;#34;runner&amp;#34;: {  
+      &amp;#34;type&amp;#34;: &amp;#34;docker-json-runner&amp;#34;,  
+      &amp;#34;manifest&amp;#34;: {  
+        &amp;#34;/&amp;#34;: &amp;#34;zdpuArJcUhve8GiwWQM5nhAKfzc3LPztg1EsoYxbpufAzo4Dr&amp;#34;  
+      }  
+    },  
+    &amp;#34;result&amp;#34;: {  
+      &amp;#34;action&amp;#34;: &amp;#34;set&amp;#34;,  
+      &amp;#34;destination&amp;#34;: {  
+        &amp;#34;dataset&amp;#34;: { &amp;#34;/&amp;#34;: &amp;#34;&amp;lt;dataset-hash-here&amp;gt;&amp;#34; },  
+        &amp;#34;path&amp;#34;: &amp;#34;split/results&amp;#34;  
+      }  
+    }  
+  },  
+  &amp;#34;status&amp;#34;: {  
+    &amp;#34;/&amp;#34;: &amp;#34;&amp;lt;status-hash-here&amp;gt;&amp;#34;  
+  }  
+}</code></p>
+
+<p>Thanks to IPFS content addressing, we can be sure that the manifest we reference will always point to the correct docker image tag.### What’s next?</p>
+
+<p>We will be providing more security options in the future to checksum and verify the docker image to ensure it hasn’t been changed in the registry.</p>
+
+<p>Also, we will add support to reference an IPNS entry to allow whitelists to be updated securely and immediately update all nodes on the Computes network.</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/posts/2018-06-20_run-native-binaries-in-computes/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Run Native Binaries in Computes</span>
+              </a>
+            </span>
+          
+          
+            <span class="button next">
+              <a href="/posts/2018-05-02_commandments-of-good-code-according-to-zach/">
+                <span class="button__text">The Commandments of Good Code according to Zach™</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+    </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+  
+</div>
+
+</body>
+</html>

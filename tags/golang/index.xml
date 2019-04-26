@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Programming Philosophy</title>
+    <link>/tags/golang/</link>
+    <description>Recent content in Golang on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jun 2018 05:33:31 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Run Native Binaries in Computes</title>
+      <link>/posts/2018-06-20_run-native-binaries-in-computes/</link>
+      <pubDate>Wed, 20 Jun 2018 05:33:31 +0000</pubDate>
+      
+      <guid>/posts/2018-06-20_run-native-binaries-in-computes/</guid>
+      <description>Photo by Ash Edmonds on Unsplash
+Thanks to the new whitelist and manifest features of Computes v14.0.0, we can now allow native binaries to run in your network. This allows you to create binaries that can access features that Docker may not offer, especially access to the GPU of the nodes in your Computes network.
+This post will show you how to set up a manifest, whitelist, and binaries that can run as tasks on many different operating systems.</description>
+    </item>
+    
+    <item>
+      <title>Computes Go SDK</title>
+      <link>/posts/2018-05-02_computes-go-sdk/</link>
+      <pubDate>Wed, 02 May 2018 12:21:03 +0000</pubDate>
+      
+      <guid>/posts/2018-05-02_computes-go-sdk/</guid>
+      <description>Today we are launching the Go SDK for Computes. The SDK allows Gophers to easily integrate with the Computes Mesh Computer. I’ll post soon on explaining the fundamental components of Computes, for now you can explore the help wiki.
+The create-task example in the SDK shows how to use some of the convenience methods provided, let’s take a walk through some of the code.input, err := POLYMORPH.FromInterface(ipfsURL, 2)
+Polymorphs allow us to refer to an IPLD link or raw data.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Error Handling on Programming Philosophy</title>
+    <link>/tags/error-handling/</link>
+    <description>Recent content in Error Handling on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jan 2018 16:52:23 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/error-handling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Be as Vulnerable as Possible to Internal Errors</title>
+      <link>/posts/2018-01-07_be-as-vulnerable-as-possible-to-internal-errors/</link>
+      <pubDate>Sun, 07 Jan 2018 16:52:23 +0000</pubDate>
+      
+      <guid>/posts/2018-01-07_be-as-vulnerable-as-possible-to-internal-errors/</guid>
+      <description>Photo by Larm Rmah on Unsplash
+I’ve been reading ZeroMQ: Messaging For Many Applications. Even if you don’t care about ZeroMQ itself, you should read this book. It has some of the most personality that I’ve ever seen in a technical book, filled with challenging ideas presented in a humorous way.
+I ran across a great quote regarding error handling. &amp;gt; ØMQ’s error handling philosophy is a mix of fail fast and resilience.</description>
+    </item>
+    
+  </channel>
+</rss>

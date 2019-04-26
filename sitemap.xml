@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2019-04-26T10:03:13-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/problem-solvers-perspective/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/tty-demystified/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/computer-languages-history-by-%C3%A9ric-l%C3%A9v%C3%A9nez/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/principles-of-chaos-engineering/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/best-programming-advice-i-ever-got/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/michael-jackson-on-optimization/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/interface-versioning/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/how-recursion-got-into-programming-a-comedy-of-errors/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/be-as-vulnerable-as-possible-to-internal-errors/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/critique-of-the-remote-procedure-call-paradigm/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/i-was-gonna-tell-you-a-joke-about-udp.../</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/commandments-of-good-code-according-to-zach/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/why-does-software-spoil/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/zawinskis-law/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/organic-leadership/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/top-5-attributes-of-highly-effective-programmers/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/engineering-for-the-long-game/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/dont-be-the-mad-bomber/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/dont-fear-the-unix-chainsaw/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/on-technical-debt/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/code-as-design/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/10-commandments-of-egoless-programming/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/effective-engineer/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/ben-shneidermans-eight-golden-rules-of-interface-design/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/rob-pike-on-complexity/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/10x-100x-1000x-programmer/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/refactoring-rewriting-rearchitecting.-oh-my/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/code-is-temporary/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/write-code-that-writes-code/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/aesthetics-ethics-and-alienation/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/first-software-development-methodology/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/emotions-and-engineering/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/21-rules-of-thumb-for-shipping-great-software-on-time/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/doug-mcilroy-the-unix-philosophy/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/engineering-culture-at-facebook/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/eric-raymonds-17-unix-rules/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/friends-romans-countrymen-lend-me-your-ears/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/i-dont-like-to-crack-an-egg-with-a-sledgehammer/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/jumping-across-levels-of-abstraction/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/know-your-medium/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/making-making-manifesto/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/put-yourself-out-of-business/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/rip-tdd/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/reactive-manifesto-by-jonas-bon%C3%A9r/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/simplicity/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/simplicity-clarity-generality/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/perfect-language/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/three-virtues/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/twelvefactor-app/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/two-ways-of-software-design-guest-post-by-roy-van-de-water/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/unix-philosophy-by-mike-gancarz/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/way-to-learn-to-program-well.../</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/what-makes-a-good-engineering-culture/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/why-firing-brilliant-assholes-is-required-to-build-a-great-engineering-culture/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/worse-is-better-by-richard-p.-gabriel/</loc>
+    <lastmod>2019-04-26T11:54:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

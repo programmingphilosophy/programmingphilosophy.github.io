@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decentralized Apps on Programming Philosophy</title>
+    <link>/tags/decentralized-apps/</link>
+    <description>Recent content in Decentralized Apps on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jun 2018 17:05:54 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/decentralized-apps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>With a little help from my friends…</title>
+      <link>/posts/2018-06-21_with-a-little-help-from-my-friends/</link>
+      <pubDate>Thu, 21 Jun 2018 17:05:54 +0000</pubDate>
+      
+      <guid>/posts/2018-06-21_with-a-little-help-from-my-friends/</guid>
+      <description>Consensus building in Computes.
+Photo by Sidharth Bhatia on Unsplash
+Sometimes you want to make sure your tasks create a consistent result before trusting the outcome. We’ve added a simple consensus mechanism in Computes. When used, you can set a threshold of how many matches are required. Let’s look at an example task with a consensus threshold of 2. This means 2 tasks would have to agree on the results before they become visible in your dataset.</description>
+    </item>
+    
+  </channel>
+</rss>

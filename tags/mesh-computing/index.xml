@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mesh Computing on Programming Philosophy</title>
+    <link>/tags/mesh-computing/</link>
+    <description>Recent content in Mesh Computing on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Mar 2018 13:01:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mesh-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decoupling Computation from Data Transformation</title>
+      <link>/posts/2018-03-07_decoupling-computation-from-data-transformation/</link>
+      <pubDate>Wed, 07 Mar 2018 13:01:01 +0000</pubDate>
+      
+      <guid>/posts/2018-03-07_decoupling-computation-from-data-transformation/</guid>
+      <description>Peter Gabas on Unsplash
+The Computes Mesh allows for some new ways of delivering applications. Computes helps you take advantage of idle CPU/GPU power you have sitting around in your network. In a traditional API setup, computations and data transformation are linked, usually deployed as an application running on a web server. Computes can help you decouple your computation from your API and provides new opportunities for data transformation.</description>
+    </item>
+    
+  </channel>
+</rss>

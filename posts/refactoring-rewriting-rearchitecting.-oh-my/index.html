@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Refactoring, Rewriting, Rearchitecting. Oh My! :: Programming Philosophy — Understanding the Fundamental Nature of Programming</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="I hear the term &amp;#34;refactoring&amp;#34; nearly every day. I usually want to shout in my best Inigo Montoya impression: &amp;#34;You keep using that word. I do not think it means what you think it means.&amp;#34;
+A brief history of refactoring:
+While the exact origins of &amp;#34;refactoring&amp;#34; as it applies to code is unknown, it obviously borrows from the idea of factoring in mathematics. Factoring is the process of reducing an object (number, polynomial, etc) into it&amp;#39;s simplest parts."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/refactoring-rewriting-rearchitecting.-oh-my/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Refactoring, Rewriting, Rearchitecting. Oh My! :: Programming Philosophy — Understanding the Fundamental Nature of Programming" />
+<meta name="twitter:description" content="I hear the term &amp;#34;refactoring&amp;#34; nearly every day. I usually want to shout in my best Inigo Montoya impression: &amp;#34;You keep using that word. I do not think it means what you think it means.&amp;#34;
+A brief history of refactoring:
+While the exact origins of &amp;#34;refactoring&amp;#34; as it applies to code is unknown, it obviously borrows from the idea of factoring in mathematics. Factoring is the process of reducing an object (number, polynomial, etc) into it&amp;#39;s simplest parts." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="Jade Meskill" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Refactoring, Rewriting, Rearchitecting. Oh My! :: Programming Philosophy — Understanding the Fundamental Nature of Programming">
+<meta property="og:description" content="I hear the term &amp;#34;refactoring&amp;#34; nearly every day. I usually want to shout in my best Inigo Montoya impression: &amp;#34;You keep using that word. I do not think it means what you think it means.&amp;#34;
+A brief history of refactoring:
+While the exact origins of &amp;#34;refactoring&amp;#34; as it applies to code is unknown, it obviously borrows from the idea of factoring in mathematics. Factoring is the process of reducing an object (number, polynomial, etc) into it&amp;#39;s simplest parts." />
+<meta property="og:url" content="/posts/refactoring-rewriting-rearchitecting.-oh-my/" />
+<meta property="og:site_name" content="Refactoring, Rewriting, Rearchitecting. Oh My!" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2015-03-09 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/refactoring-rewriting-rearchitecting.-oh-my/">Refactoring, Rewriting, Rearchitecting. Oh My!</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2015-03-09
+        </span>
+      
+      <span class="post-author">— Written by Jade Meskill</span>
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      <p>I hear the term &#34;refactoring&#34; nearly every day. I usually want to shout in my best Inigo Montoya impression: &#34;You keep using that word. I do not think it means what you think it means.&#34;</p>
+
+<p>A brief history of refactoring:</p>
+
+<p>While the exact origins of &#34;refactoring&#34; as it applies to code is unknown, it obviously borrows from the idea of factoring in mathematics. Factoring is the process of reducing an object (number, polynomial, etc) into it&#39;s simplest parts. An example: x^2+3x-4 factors to (x+4)(x-1). The result of the factoring is made up of much simpler building blocks. However, the expression retains is original meaning.</p>
+
+<p>Refactoring your code follows a similar approach: reduce complexity of the code to simpler base parts, yet the behavior of the original code are not changed. In 1991 William Griswold published his Ph.D. dissertation titled &#34;<a href="http://cseweb.ucsd.edu/~wgg/Abstracts/gristhesis.pdf">Program Restructuring as an Aid to Software Maintenance</a>&#34; , followed by William F. Opdyke in his &#34;<a href="http://www.ai.univ-paris8.fr/~lysop/opdyke-thesis.pdf">Refactoring Object-Oriented Frameworks</a>&#34;, published in 1992. These papers make the case for automated refactoring tools and demonstrate a variety of basic (as well as advanced) refactorings. They both also establish the idea that the refactoring should be &#34;behavior preserving.&#34;</p>
+
+<blockquote>
+<p>The focus of the thesis is on automating the refactorings in a way that preserves the behavior of a program. The refactorings are defined to be behavior preserving, provided that their preconditions are met. Most of the refactorings are simple to implement and it is almost trivial to show that they are behavior preserving</p>
+</blockquote>
+
+<p>So, keep in mind, a refactoring is intended to preserve the existing behavior of the code, whether through manual or an automated process.</p>
+
+<p>Anything beyond that is rewriting or rearchitecting. You can&#39;t always refactor your way out of a mess. Sometimes the system itself must be changed in order to break it down into simpler building blocks.</p>
+
+<p>To get a deeper look into refactoring, consult the comprehensive &#34;<a href="https://www.goodreads.com/book/show/44936.Refactoring?from_search=true">Refactoring: Improving the Design of Existing Code</a>&#34; by Martin Fowler</p>
+
+<p>Grandpa, tell me a story &#39;bout the good days:</p>
+
+<p>At Integrum we had been cultivating a style of pair-programming that we lovingly referred to as Asshole Driven Development (or ADD). A simple explanation is: using ping-pong pairing and Test Driven Development, Person A writes the simplest possible test that could possibly fail. Person B then tries to find the simplest possible code that will make the test pass, including copying and pasting the test case as the result. Person B then writes the next simplest possible test that could fail, Person A implements. Rinse, repeat. It becomes a fun game to see how simple you can make the solution, keeping the pair programmers fully engaged.</p>
+
+<p>This is all well and good, however in 2010 Uncle Bob Martin published his <a href="http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html">Transformation Priority Premise</a>, suggesting that every Refactoring has a counterpart called a Transformation. mind = blown</p>
+
+<blockquote>
+<p>As the tests get more specific, the code gets more generic.</p>
+</blockquote>
+
+<p>Without re-explaining the entire TPP, the core idea that code transforms from specific to generic is extremely powerful. It frees the mind from having to know the solution before engaging in TDD. This can be one of the biggest barriers to getting started. We are used to starting with an implementation in mind and fixing it, rather than starting with an narrow, specific outcome working towards a generic solution.</p>
+
+<p>TPP + ADD = AWESOME!</p>
+
+<p>Check out Uncle Bob&#39;s post on <a href="http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html">The Transformation Priority Premise</a>, or watch the <a href="http://cleancoders.com/episode/clean-code-episode-24-p1/show">Clean Coders Episode 24</a></p>
+
+<p>What techniques are you using to refactor your code?</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/posts/10x-100x-1000x-programmer/">
+                <span class="button__icon">←</span>
+                <span class="button__text">The 10x (100x? 1000x?!) Programmer</span>
+              </a>
+            </span>
+          
+          
+            <span class="button next">
+              <a href="/posts/code-is-temporary/">
+                <span class="button__text">Code Is Temporary</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+    </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+  
+</div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sdk on Programming Philosophy</title>
+    <link>/tags/sdk/</link>
+    <description>Recent content in Sdk on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 May 2018 12:21:03 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/sdk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computes Go SDK</title>
+      <link>/posts/2018-05-02_computes-go-sdk/</link>
+      <pubDate>Wed, 02 May 2018 12:21:03 +0000</pubDate>
+      
+      <guid>/posts/2018-05-02_computes-go-sdk/</guid>
+      <description>Today we are launching the Go SDK for Computes. The SDK allows Gophers to easily integrate with the Computes Mesh Computer. I’ll post soon on explaining the fundamental components of Computes, for now you can explore the help wiki.
+The create-task example in the SDK shows how to use some of the convenience methods provided, let’s take a walk through some of the code.input, err := POLYMORPH.FromInterface(ipfsURL, 2)
+Polymorphs allow us to refer to an IPLD link or raw data.</description>
+    </item>
+    
+  </channel>
+</rss>

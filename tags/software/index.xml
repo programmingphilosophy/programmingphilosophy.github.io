@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Programming Philosophy</title>
+    <link>/tags/software/</link>
+    <description>Recent content in Software on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 May 2018 13:01:01 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Commandments of Good Code according to Zach™</title>
+      <link>/posts/2018-05-02_commandments-of-good-code-according-to-zach/</link>
+      <pubDate>Wed, 02 May 2018 13:01:01 +0000</pubDate>
+      
+      <guid>/posts/2018-05-02_commandments-of-good-code-according-to-zach/</guid>
+      <description>Photo by Adrian Curiel on Unsplash
+The Commandments of Good Code according to Zach™
+ Treat your code the way you want other’s code to treat you All (ok most) programming languages are simultaneously good and bad Good code is easily read and understood, in part and in whole Good code has a well thought out layout &amp;amp; architecture to make managing state obvious Good code doesn’t reinvent the wheel, it stands on the shoulders of giants Don’t cross the streams!</description>
+    </item>
+    
+  </channel>
+</rss>

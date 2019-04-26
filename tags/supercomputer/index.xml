@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supercomputer on Programming Philosophy</title>
+    <link>/tags/supercomputer/</link>
+    <description>Recent content in Supercomputer on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 May 2018 12:21:03 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/supercomputer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computes Go SDK</title>
+      <link>/posts/2018-05-02_computes-go-sdk/</link>
+      <pubDate>Wed, 02 May 2018 12:21:03 +0000</pubDate>
+      
+      <guid>/posts/2018-05-02_computes-go-sdk/</guid>
+      <description>Today we are launching the Go SDK for Computes. The SDK allows Gophers to easily integrate with the Computes Mesh Computer. I’ll post soon on explaining the fundamental components of Computes, for now you can explore the help wiki.
+The create-task example in the SDK shows how to use some of the convenience methods provided, let’s take a walk through some of the code.input, err := POLYMORPH.FromInterface(ipfsURL, 2)
+Polymorphs allow us to refer to an IPLD link or raw data.</description>
+    </item>
+    
+    <item>
+      <title>Decoupling Computation from Data Transformation</title>
+      <link>/posts/2018-03-07_decoupling-computation-from-data-transformation/</link>
+      <pubDate>Wed, 07 Mar 2018 13:01:01 +0000</pubDate>
+      
+      <guid>/posts/2018-03-07_decoupling-computation-from-data-transformation/</guid>
+      <description>Peter Gabas on Unsplash
+The Computes Mesh allows for some new ways of delivering applications. Computes helps you take advantage of idle CPU/GPU power you have sitting around in your network. In a traditional API setup, computations and data transformation are linked, usually deployed as an application running on a web server. Computes can help you decouple your computation from your API and provides new opportunities for data transformation.</description>
+    </item>
+    
+    <item>
+      <title>To Infinity and Beyond!</title>
+      <link>/posts/2018-01-02_to-infinity-and-beyond/</link>
+      <pubDate>Tue, 02 Jan 2018 15:01:03 +0000</pubDate>
+      
+      <guid>/posts/2018-01-02_to-infinity-and-beyond/</guid>
+      <description>I am happy to announce I am officially co-founder and CTO of Computes, inc. I couldn’t be more excited to work on another startup with my partners in crime: @ChrisMatthieu, Roy van de Water, and Peter DeMartini. We are out to change the world, again!
+I am eager to take on the CTO role again, especially given the incredibly ambitious dreams we have for Computes. Being at the intersection of emerging technologies and high-performing teams is where I love to be.</description>
+    </item>
+    
+  </channel>
+</rss>

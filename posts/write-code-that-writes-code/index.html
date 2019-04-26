@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Write Code That Writes Code :: Programming Philosophy — Understanding the Fundamental Nature of Programming</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="In The Pragmatic Programmer: From Journeyman to Master by Andy Hunt and David Thomas, they have a list of the tips and checklists that appear throughout the book. #29 is: Write Code That Writes Code.
+In their section covering Code Generators they describe two different types: Active and Passive.
+Passive code generators run one time, and produce a result. From that point forward, any customizations that are done are outside the code generator."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/write-code-that-writes-code/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Write Code That Writes Code :: Programming Philosophy — Understanding the Fundamental Nature of Programming" />
+<meta name="twitter:description" content="In The Pragmatic Programmer: From Journeyman to Master by Andy Hunt and David Thomas, they have a list of the tips and checklists that appear throughout the book. #29 is: Write Code That Writes Code.
+In their section covering Code Generators they describe two different types: Active and Passive.
+Passive code generators run one time, and produce a result. From that point forward, any customizations that are done are outside the code generator." />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="Jade Meskill" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Write Code That Writes Code :: Programming Philosophy — Understanding the Fundamental Nature of Programming">
+<meta property="og:description" content="In The Pragmatic Programmer: From Journeyman to Master by Andy Hunt and David Thomas, they have a list of the tips and checklists that appear throughout the book. #29 is: Write Code That Writes Code.
+In their section covering Code Generators they describe two different types: Active and Passive.
+Passive code generators run one time, and produce a result. From that point forward, any customizations that are done are outside the code generator." />
+<meta property="og:url" content="/posts/write-code-that-writes-code/" />
+<meta property="og:site_name" content="Write Code That Writes Code" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2015-02-22 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/write-code-that-writes-code/">Write Code That Writes Code</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2015-02-22
+        </span>
+      
+      <span class="post-author">— Written by Jade Meskill</span>
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      <p>In <a href="https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer?ac=1">The Pragmatic Programmer: From Journeyman to Master</a> by Andy Hunt and David Thomas, they have a list of the tips and checklists that appear throughout the book. #29 is: Write Code That Writes Code.</p>
+
+<p>In their section covering Code Generators they describe two different types: Active and Passive.</p>
+
+<p>Passive code generators run one time, and produce a result. From that point forward, any customizations that are done are outside the code generator. They go on to list some examples of passive code generation:</p>
+
+<ul>
+<li>Creating new source files</li>
+<li>Performing one-off conversions</li>
+<li>Producing lookup tables and other resources</li>
+</ul>
+
+<p>Active code generators are used each time the results are required. The result can always be re-generated again by the code generator. An example used in the book is dealing with a schema that is used to structure the database tables as well as the underlying code structures.</p>
+
+<blockquote>
+<p>While passive code generators are simply a convenience, their active cousins are a necessity if you want to follow the DRY principle. With an active code generator, you can take a single representation of some piece of knowledge and convert it into all the forms your application needs. This is not duplication, because the derived forms are disposable, and are generated as needed by the code generator (hence the word active).</p>
+
+<p>On the complexity of code generators:</p>
+
+<p>All this talk of active this and passive that may leave you with the impression that code generators are complex beasts. They needn&#39;t be. Normally the most complex part is the parser, which analyzes the input file. Keep the input format simple, and the code generator becomes simple.&#34;</p>
+</blockquote>
+
+<p>A couple years ago Roy van de Water and I tried an experiment: For two weeks, only write code that writes code. The goal was simple – write as little code &#34;by hand&#34; as possible and instead generate it by building our own code generators. That way, when we were wrong about the design of the class we were building, or the approach of the application, we would simply tweak the generators and run them again.</p>
+
+<p>We tried to keep the process simple so as to not over-engineer or waste a bunch of time.</p>
+
+<p>(assuming an existing generator did not exist)</p>
+
+<ol>
+<li>Write the new class we needed using Test Driven Development</li>
+<li>Create templates from the tests and source files</li>
+<li>Re-generate the class we had just written and replace it, ensuring it still works and tests all pass</li>
+</ol>
+
+<p>That&#39;s it!</p>
+
+<p>We had a lot of fun trying to stick to the original goal and by the end we had a number of great generators that saved us days, if not weeks, of work on the rest of that project and on numerous projects since then.</p>
+
+<p>Have you tried something similar?</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/posts/code-is-temporary/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Code Is Temporary</span>
+              </a>
+            </span>
+          
+          
+            <span class="button next">
+              <a href="/posts/aesthetics-ethics-and-alienation/">
+                <span class="button__text">Aesthetics, Ethics, and Alienation</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+    </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+  
+</div>
+
+</body>
+</html>

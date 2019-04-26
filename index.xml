@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Philosophy</title>
+    <link>/</link>
+    <description>Recent content on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2019 10:03:13 -0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 26 Apr 2019 10:03:13 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description> Computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better.
+— Donald Knuth
+ </description>
+    </item>
+    
+    <item>
+      <title>A Problem Solver&#39;s Perspective</title>
+      <link>/posts/problem-solvers-perspective/</link>
+      <pubDate>Sun, 03 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/problem-solvers-perspective/</guid>
+      <description>From Programming Pearls, 2nd Edition :
+ Good programmers are a little bit lazy: they sit back and wait for an insight rather than rushing forward with their first idea. That must, of course, be balanced with the initiative to code at the proper time. The real skill, though, is knowing the proper time. That judgement comes only with the experience of solving problems and reflecting on their solutions.
+ Programming Philosophy is now on Slack!</description>
+    </item>
+    
+    <item>
+      <title>The TTY demystified</title>
+      <link>/posts/tty-demystified/</link>
+      <pubDate>Sun, 22 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/tty-demystified/</guid>
+      <description>Many developers take the terminal for granted. If you&amp;#39;ve ever tried to integrate with the TTY, you&amp;#39;ve seen what a crazy mess it has become.
+Linus Åkesson wrote an in-depth article about the TTY, it&amp;#39;s history, and the components involved.
+ What you are about to see is not particularly elegant. In fact, the TTY subsystem — while quite functional from a user&amp;#39;s point of view — is a twisty little mess of special cases.</description>
+    </item>
+    
+    <item>
+      <title>Computer Languages History by Éric Lévénez</title>
+      <link>/posts/computer-languages-history-by-%C3%A9ric-l%C3%A9v%C3%A9nez/</link>
+      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/computer-languages-history-by-%C3%A9ric-l%C3%A9v%C3%A9nez/</guid>
+      <description>Amazing chart showing the history and lineage of programming languages by Éric Lévénez.
+Lots and lots of links to details for many of the languages listed.</description>
+    </item>
+    
+    <item>
+      <title>Principles of Chaos Engineering</title>
+      <link>/posts/principles-of-chaos-engineering/</link>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/principles-of-chaos-engineering/</guid>
+      <description>From Principles of Chaos Engineering
+ Advances in large-scale, distributed software systems are changing the game for software engineering. As an industry, we are quick to adopt practices that increase flexibility of development and velocity of deployment. An urgent question follows on the heels of these benefits: How much confidence we can have in the complex systems that we put into production?
+&amp;hellip; An empirical, systems-based approach addresses the chaos in distributed systems at scale and builds confidence in the ability of those systems to withstand realistic conditions.</description>
+    </item>
+    
+    <item>
+      <title>The Best Programming Advice I Ever Got</title>
+      <link>/posts/best-programming-advice-i-ever-got/</link>
+      <pubDate>Sun, 25 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/best-programming-advice-i-ever-got/</guid>
+      <description>Andrei Alexandrescu writes in an article to InformIT:
+ Most notably, learning how to learn is more important than learning anything else. If you know how to learn, you&amp;#39;ll reduce inertia and emotional investment in any particular niche, so you&amp;#39;re likely to make better decisions when choosing what to best work on.
+ Join the discussion on Facebook in Programming Philosophy.</description>
+    </item>
+    
+    <item>
+      <title>Michael Jackson on Optimization</title>
+      <link>/posts/michael-jackson-on-optimization/</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/michael-jackson-on-optimization/</guid>
+      <description>Michael Jackson on Optimization:
+ Don&amp;#39;t. Don&amp;#39;t Yet (for experts only).   Donald Knuth in Structured Programming with Goto Statements:
+ Programmers waste enormous amounts of time thinking about, or worrying about, the speed of noncritical parts of their programs, and these attempts at efficiency actually have a strong negative impact when debugging and maintenance are considered. We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.</description>
+    </item>
+    
+    <item>
+      <title>Interface Versioning</title>
+      <link>/posts/interface-versioning/</link>
+      <pubDate>Sun, 13 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/interface-versioning/</guid>
+      <description>Interface Versioning by laughinghan.
+ An extension of SemVer with a stricter (yet more realistic) backcompat guarantee, that provides more flexibility to change the API, for libraries that are packaged and downloaded (not services accessed remotely over the Internet
+ What do you think?</description>
+    </item>
+    
+    <item>
+      <title>How recursion got into programming: a comedy of errors</title>
+      <link>/posts/how-recursion-got-into-programming-a-comedy-of-errors/</link>
+      <pubDate>Sun, 30 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/how-recursion-got-into-programming-a-comedy-of-errors/</guid>
+      <description>Hat tip to the O&amp;#39;Reilly Programming Newsletter for this one.
+How recursion got into programming: a comedy of errors by Maarten van Emden
+ By now it is difficult to imagine that once there was a time when the utility, and even the possibility, of recursion in programming was in doubt. Yet that was true of the programming community around 1960. Even the committee that was to create Algol 60 was divided on the issue.</description>
+    </item>
+    
+    <item>
+      <title>Be as Vulnerable as Possible to Internal Errors</title>
+      <link>/posts/be-as-vulnerable-as-possible-to-internal-errors/</link>
+      <pubDate>Sun, 23 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/be-as-vulnerable-as-possible-to-internal-errors/</guid>
+      <description>I&amp;#39;ve been reading ZeroMQ: Messaging For Many Applications. Even if you don&amp;#39;t care about ZeroMQ itself, you should read this book. It has some of the most personality that I&amp;#39;ve ever seen in a technical book, filled with challenging ideas presented in a humorous way.
+I ran across a great quote regarding error handling.
+ ØMQ’s error handling philosophy is a mix of fail fast and resilience. Processes, we believe, should be as vulnerable as possible to internal errors, and as robust as possible against external attacks and errors.</description>
+    </item>
+    
+    <item>
+      <title>A Critique of the Remote Procedure Call Paradigm</title>
+      <link>/posts/critique-of-the-remote-procedure-call-paradigm/</link>
+      <pubDate>Sun, 09 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/critique-of-the-remote-procedure-call-paradigm/</guid>
+      <description>I have long disliked RPC, especially since I built a very messy XML-RPC/PHP system many years ago. This paper would have helped me out immensely.
+A Critique of the Remote Procedure Call Paradigm by Andrew S. Tanenbaum and Robbert van Renesse
+ We propose the following test for a general-purpose RPC system. Imagine that two programmers are working on a project. Programmer 1 is writing the main program. Programmer 2 is writing a collection of procedures to be called by the main program.</description>
+    </item>
+    
+    <item>
+      <title>I was gonna tell you a joke about UDP...</title>
+      <link>/posts/i-was-gonna-tell-you-a-joke-about-udp.../</link>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/i-was-gonna-tell-you-a-joke-about-udp.../</guid>
+      <description>But you might not get it.
+** groan **
+Seriously though, I&amp;#39;ve had one crazy month and could use a good laugh (not like that bad one above).
+James Iry&amp;#39;s A Brief, Incomplete, and Mostly Wrong History of Programming Languages is chock full of some hilariously nerdy humor.
+ 1972 - Dennis Ritchie invents a powerful gun that shoots both forward and backward simultaneously. Not satisfied with the number of deaths and permanent maimings from that invention he invents C and Unix.</description>
+    </item>
+    
+    <item>
+      <title>The Commandments of Good Code according to Zach™</title>
+      <link>/posts/commandments-of-good-code-according-to-zach/</link>
+      <pubDate>Sun, 19 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/commandments-of-good-code-according-to-zach/</guid>
+      <description>The Commandments of Good Code according to Zach™
+ Treat your code the way you want other’s code to treat you All (ok most) programming languages are simultaneously good and bad Good code is easily read and understood, in part and in whole Good code has a well thought out layout &amp;amp; architecture to make managing state obvious Good code doesn’t reinvent the wheel, it stands on the shoulders of giants Don’t cross the streams!</description>
+    </item>
+    
+    <item>
+      <title>Why Does Software Spoil?</title>
+      <link>/posts/why-does-software-spoil/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/why-does-software-spoil/</guid>
+      <description>From Why Does Software Spoil by Jeff Atwood
+ I love the prospect of upgrading my favorite software. Done right, it&amp;#39;s like watching a caterpillar shed its skin and become a beautiful butterfly. Or at least a decent-looking moth.
+But for some software packages, something goes terribly, horribly wrong during the process of natural upgrade evolution. Instead of becoming better applications over time, they become worse. They end up more bloated, more slow, more complex, more painful to use.</description>
+    </item>
+    
+    <item>
+      <title>Zawinski&#39;s Law</title>
+      <link>/posts/zawinskis-law/</link>
+      <pubDate>Sun, 05 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/zawinskis-law/</guid>
+      <description>Zawinski&amp;#39;s Law from the Jargon File:
+ Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can.
+ Possibly inspired by &amp;#34;The Law of Software Development and Envelopment&amp;#34; at MIT:
+ Every program in development at MIT expands until it can read mail.
+ While humorous, it reflects the pressure of programs to expand and evolve into platforms. At Octoblu, we succumbed to this pressure early and can not only read email (or SMS, or push notifications, or&amp;hellip;), but can even automatically generate it from your brain waves.</description>
+    </item>
+    
+    <item>
+      <title>Organic Leadership</title>
+      <link>/posts/organic-leadership/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/organic-leadership/</guid>
+      <description>Gerald Weinberg in Becoming a Technical Leader
+ One kind of trouble is that when change doesn’t fit our model, we try to stop it from happening. When faced with change, we may feel paralyzed and helpless. People holding to organic models need security just as much as anyone else, but they obtain their security by taking risks and by tolerating ambiguity.
+Under the influence of the threat/ reward model, we may try to assure our security by struggling to keep all people and relationships forever the same.</description>
+    </item>
+    
+    <item>
+      <title>Top 5 Attributes of Highly Effective Programmers</title>
+      <link>/posts/top-5-attributes-of-highly-effective-programmers/</link>
+      <pubDate>Sun, 21 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/top-5-attributes-of-highly-effective-programmers/</guid>
+      <description>Top 5 Attributes of Highly Effective Programmers by Ben Watson
+I picked out a few of my favorite quotes, but you should go and read the whole thing.
+Humility Humility is first because it implies all the other attributes, or at least enables them.
+Simply put, humility is an understanding that the world doesn’t begin and end with you. It’s accepting that you don’t know everything there is to know about WPF, or Perl, or Linux.</description>
+    </item>
+    
+    <item>
+      <title>Engineering for the Long Game</title>
+      <link>/posts/engineering-for-the-long-game/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/engineering-for-the-long-game/</guid>
+      <description>Astrid Atkinson from Google speaking about Engineering for the Long Game at O&amp;#39;Reilly Velocity conference.
+Here are some points that stuck out to me:
+ Your job is not to limit growth. When you&amp;#39;re trying to keep complexity in check, one of the worst things you can do is say &amp;#34;You can&amp;#39;t launch this, it&amp;#39;s too complex, it&amp;#39;s going to make things worse&amp;#34; You want to be enabling all the growth the product can provide.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Be The Mad Bomber</title>
+      <link>/posts/dont-be-the-mad-bomber/</link>
+      <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/dont-be-the-mad-bomber/</guid>
+      <description>From &amp;#34;The Psychology of Computer Programming&amp;#34; by Gerald M. Weinberg
+Jerry tells a great story about the perils of personality and how two different programmers were affecting the entire department:
+ Personality, being the totality of factors contributing to our individuality, is displayed in everything we do or say. In particular, it is reflected in our programs, and, even more particularly, in how those programs look to the machine operators. The chief systems programmer, who, by the nature of his duties, was in face-to-face contact with both programmers and operators, had observed that the operators often had disparaging comments to make about certain programmers.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Fear the UNIX Chainsaw</title>
+      <link>/posts/dont-fear-the-unix-chainsaw/</link>
+      <pubDate>Sun, 03 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/dont-fear-the-unix-chainsaw/</guid>
+      <description>Watch Gary Bernhardt talk about the UNIX Chainsaw.
+  My favorite quote:
+ Half-assed is OK when you only need half of an ass
+&amp;ndash; Gary Bernhardt
+ Join the discussion on Facebook in Programming Philosophy</description>
+    </item>
+    
+    <item>
+      <title>On Technical Debt</title>
+      <link>/posts/on-technical-debt/</link>
+      <pubDate>Sun, 26 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/on-technical-debt/</guid>
+      <description>Nina Zakherenko gave a great talk at PyCon 2015 called Technical Debt - The Monster in Your Closet that you need to watch.
+Go ahead, watch it. I&amp;#39;ll wait&amp;hellip;
+&amp;hellip;
+Great! Hope you enjoyed it.
+That got me thinking about where the term came from. In 1992 Ward Cunningham said:
+ Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite&amp;hellip; The danger occurs when the debt is not repaid.</description>
+    </item>
+    
+    <item>
+      <title>Code As Design</title>
+      <link>/posts/code-as-design/</link>
+      <pubDate>Sun, 19 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/code-as-design/</guid>
+      <description>In 1992 Jack Reeves published an essay What Is Software Design? in the C++ Journal.
+His basic premise is: &amp;#34;that final source code is the real software design.&amp;#34;
+He goes on to explain&amp;hellip;
+ &amp;#34;The final goal of any engineering activity is some type of documentation. When a design effort is complete, the design documentation is turned over to the manufacturing team. This is a completely different group with completely different skills from the design team.</description>
+    </item>
+    
+    <item>
+      <title>The 10 Commandments of Egoless Programming</title>
+      <link>/posts/10-commandments-of-egoless-programming/</link>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/10-commandments-of-egoless-programming/</guid>
+      <description>From The Psychology of Computer Programming by Jerry Weinberg:
+1. Understand and accept that you will make mistakes. The point is to find them early, before they make it into production. Fortunately, except for the few of us developing rocket guidance software at JPL, mistakes are rarely fatal in our industry, so we can, and should, learn, laugh, and move on.
+2. You are not your code. Remember that the entire point of a review is to find problems, and problems will be found.</description>
+    </item>
+    
+    <item>
+      <title>The Effective Engineer</title>
+      <link>/posts/effective-engineer/</link>
+      <pubDate>Sun, 05 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/effective-engineer/</guid>
+      <description>In March 2015, Edmond Lau published The Effective Engineer: How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact.
+In this new book he explains his personal story in how he has come to understand what makes an effective engineer, explaining the mindset and tools that an effective engineer uses to get 10x results without working 10x hours.
+What makes an effective engineer?
+I extracted these from the introduction to the book:</description>
+    </item>
+    
+    <item>
+      <title>Ben Shneiderman&#39;s Eight Golden Rules of Interface Design</title>
+      <link>/posts/ben-shneidermans-eight-golden-rules-of-interface-design/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ben-shneidermans-eight-golden-rules-of-interface-design/</guid>
+      <description>In 1986 Ben Shneiderman published his &amp;#34;Eight Golden Rules of Interface Design&amp;#34;
+1. Strive for consistency Consistent sequences of actions should be required in similar situations; identical terminology should be used in prompts, menus, and help screens; and consistent commands should be employed throughout.
+2. Enable frequent users to use shortcuts As the frequency of use increases, so do the user&amp;#39;s desires to reduce the number of interactions and to increase the pace of interaction.</description>
+    </item>
+    
+    <item>
+      <title>Rob Pike On Complexity</title>
+      <link>/posts/rob-pike-on-complexity/</link>
+      <pubDate>Sun, 22 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rob-pike-on-complexity/</guid>
+      <description>The following is an excerpt from Notes on Programming in C by Rob Pike
+Complexity
+Most programs are too complicated - that is, more complex than they need to be to solve their problems efficiently. Why? Mostly it&amp;#39;s because of bad design, but I will skip that issue here because it&amp;#39;s a big one. But programs are often complicated at the microscopic level, and that is something I can address here.</description>
+    </item>
+    
+    <item>
+      <title>The 10x (100x? 1000x?!) Programmer</title>
+      <link>/posts/10x-100x-1000x-programmer/</link>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/10x-100x-1000x-programmer/</guid>
+      <description>In Making Software: What Really Works and Why We Believe It, Steve McConnell contributes a chapter called &amp;#34;What Does 10x Mean? Measuring Variations in Programmer Productivity&amp;#34;.
+ One of the most replicated results in software engineering research is the 10-fold difference in productivity and quality between different programmers with the same levels of experience. Researchers have also found that this difference applies at the team level, even to different teams working within the same industries.</description>
+    </item>
+    
+    <item>
+      <title>Refactoring, Rewriting, Rearchitecting. Oh My!</title>
+      <link>/posts/refactoring-rewriting-rearchitecting.-oh-my/</link>
+      <pubDate>Mon, 09 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/refactoring-rewriting-rearchitecting.-oh-my/</guid>
+      <description>I hear the term &amp;#34;refactoring&amp;#34; nearly every day. I usually want to shout in my best Inigo Montoya impression: &amp;#34;You keep using that word. I do not think it means what you think it means.&amp;#34;
+A brief history of refactoring:
+While the exact origins of &amp;#34;refactoring&amp;#34; as it applies to code is unknown, it obviously borrows from the idea of factoring in mathematics. Factoring is the process of reducing an object (number, polynomial, etc) into it&amp;#39;s simplest parts.</description>
+    </item>
+    
+    <item>
+      <title>Code Is Temporary</title>
+      <link>/posts/code-is-temporary/</link>
+      <pubDate>Mon, 02 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/code-is-temporary/</guid>
+      <description>This week Nick Bradbury, best known for his products HomeSite and FeedDemon, wrote a short post titled Code Is Temporary. He talks about the ephemeral nature of code and challenges us to stop wasting our time and build something we care about.
+ &amp;#34;Developers sweat blood writing code but in the end our code will vanish. That language you’re learning or framework you’re devoted to will disappear in short time. At some point what you create will only be able to run in some nostalgic emulator.</description>
+    </item>
+    
+    <item>
+      <title>Write Code That Writes Code</title>
+      <link>/posts/write-code-that-writes-code/</link>
+      <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/write-code-that-writes-code/</guid>
+      <description>In The Pragmatic Programmer: From Journeyman to Master by Andy Hunt and David Thomas, they have a list of the tips and checklists that appear throughout the book. #29 is: Write Code That Writes Code.
+In their section covering Code Generators they describe two different types: Active and Passive.
+Passive code generators run one time, and produce a result. From that point forward, any customizations that are done are outside the code generator.</description>
+    </item>
+    
+    <item>
+      <title>Aesthetics, Ethics, and Alienation</title>
+      <link>/posts/aesthetics-ethics-and-alienation/</link>
+      <pubDate>Sun, 15 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/aesthetics-ethics-and-alienation/</guid>
+      <description>From (aptly named) The Philosophical Programmer: Reflections on the Moth in the Machine by Daniel Kohanski:
+ Aesthetics, let us admit, mean nothing to a computer. And elegance in programming is by no means a guarantor of efficiency. It must be constantly borne in mind, however, that programs are not written solely to be understood by computers, but by people as well. While the computer may well be able to execute a poorly designed program and produce the correct answer, it is often difficult to determine from an examination of the program that it is the correct answer.</description>
+    </item>
+    
+    <item>
+      <title>The First Software Development Methodology</title>
+      <link>/posts/first-software-development-methodology/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/first-software-development-methodology/</guid>
+      <description>I was wondering this weekend, &amp;#34;What was the first software development methodology?&amp;#34;
+Luckily, somebody significantly more determined than myself already did the hard work. Dr. David F. Rico has identified a timeline of software development methodologies, at least in broad strokes.
+My favorite part of this paper is how he broke down each methodology into the Era and identified Market Conditions that surrounded each methodology. While reading the list I laughed at the fact that the first two methodologies, Flowcharting and Structured Design, were aimed at fighting unreadable and complex programs.</description>
+    </item>
+    
+    <item>
+      <title>Emotions and Engineering</title>
+      <link>/posts/emotions-and-engineering/</link>
+      <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/emotions-and-engineering/</guid>
+      <description>Now to enter the controversial and confusing world of emotions: We had some strong showing of emotion on our team this week and I was so excited. Finally breaking through the shell of avoiding conflicts and feelings. Ooh, the F-word. Feelings . A scary topic for most engineers I know, including myself. I was a firm believer that Feelings were an engineer&amp;#39;s worst enemy. Even worse than the F-word is the E-word.</description>
+    </item>
+    
+    <item>
+      <title>21 Rules of Thumb for Shipping Great Software on Time</title>
+      <link>/posts/21-rules-of-thumb-for-shipping-great-software-on-time/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/21-rules-of-thumb-for-shipping-great-software-on-time/</guid>
+      <description>Roy reminded me of this great article this week. It&amp;#39;s long, but has some great content. If you want to get the bonus 2 and 1&amp;frasl;2 rules, you can watch the video:
+21 Rules of Thumb for Shipping Great Software on Time
+Jim McCarthy, Microsoft Corporation
+Shipping great software on time is a difficult but not impossible task. Elements you think would count the most count for very little. Development methodology, process, technical prowess, excellence of tools and depth of project management skills all influence the outcome of a software development project; but nothing indicates success as much as the manager’s ability to focus on a few critical and conceptually simple things.</description>
+    </item>
+    
+    <item>
+      <title>Doug McIlroy, The Unix Philosophy</title>
+      <link>/posts/doug-mcilroy-the-unix-philosophy/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/doug-mcilroy-the-unix-philosophy/</guid>
+      <description>(i) Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new features.
+(ii) Expect the output of every program to become the input to another, as yet unknown, program. Don’t clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don’t insist on interactive input.
+(iii) Design and build software, even operating systems, to be tried early, ideally within weeks.</description>
+    </item>
+    
+    <item>
+      <title>Engineering Culture at Facebook</title>
+      <link>/posts/engineering-culture-at-facebook/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/engineering-culture-at-facebook/</guid>
+      <description>This is a great post by Pierre Raynaud-Richard at Facebook about their Engineering Culture; specifically Code Ownership. There are a lot of important ideas in here and I encourage you to read it thoroughly.
+Here&amp;#39;s one of my favorite sections:
+The culture of the &amp;#34;code expert&amp;#34; results in a world of sclerosis and stagnation where really bad things can occur. Here are just two examples:
+ The ideas of the expert are no longer challenged.</description>
+    </item>
+    
+    <item>
+      <title>Eric Raymond’s 17 Unix Rules</title>
+      <link>/posts/eric-raymonds-17-unix-rules/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/eric-raymonds-17-unix-rules/</guid>
+      <description>I was re-reading The Art of Unix Programming and re-discovered some great ideas. Sharing with you:
+Rule of Modularity
+Developers should build a program out of simple parts connected by well defined interfaces, so problems are local, and parts of the program can be replaced in future versions to support new features. This rule aims to save time on debugging code that is complex, long, and unreadable.
+Rule of Clarity</description>
+    </item>
+    
+    <item>
+      <title>Friends, Romans, countrymen, lend me your ears</title>
+      <link>/posts/friends-romans-countrymen-lend-me-your-ears/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/friends-romans-countrymen-lend-me-your-ears/</guid>
+      <description>Discussion at: https://www.facebook.com/groups/programming.philosophy/permalink/879945482055839/
+I&amp;#39;ve been dealing with the consequences of defects this week. Frustrated, I went back to the Holy Bible (aka Extreme Programming Explained) for some guidance. I rediscovered this section in the Corollary Practices:
+Root-Cause Analysis
+Every time a defect is found after development, eliminate the defect and its cause. The goal is not just that this one defect won&amp;#39;t ever recur, but that the team will never make the same kind of mistake again.</description>
+    </item>
+    
+    <item>
+      <title>I don&#39;t like to crack an egg with a sledgehammer</title>
+      <link>/posts/i-dont-like-to-crack-an-egg-with-a-sledgehammer/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/i-dont-like-to-crack-an-egg-with-a-sledgehammer/</guid>
+      <description>From A Discipline of Programming by Edsger W. Dijkstra:
+(Up to this very day there is among the more theoretically inclined computing scientists still a widespread feeling that recursive programs &amp;#34;come more naturally&amp;#34; than repetitive ones.)
+For the alternative way out, viz. providing the couple &amp;#34;repetition&amp;#34; and &amp;#34;assignment to a variable&amp;#34; with a sound and workable mathematical basis, we had to wait another ten years. The outcome, as is demonstrated in this monograph, has been that the semantics of a repetitive construct can be defined in terms of a recurrence relation between predicates, whereas the semantic definition of general recursion requires a recurrence relation between predicate transformers.</description>
+    </item>
+    
+    <item>
+      <title>Jumping Across Levels of Abstraction</title>
+      <link>/posts/jumping-across-levels-of-abstraction/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/jumping-across-levels-of-abstraction/</guid>
+      <description>Donald Knuth speaking in an interview, from The Essential Knuth by Edgar G. Daylight:
+It is very easy to become enamored of logical consequences without being enamored of efficiency. Once you get bitten by this bug, you can see all kinds of beautiful possibilities that are intellectually satisfying but economically tragic.
+Of course not all abstract things are bad. It&amp;#39;s fun to solve puzzles, so you look for new puzzles to solve.</description>
+    </item>
+    
+    <item>
+      <title>Know Your Medium</title>
+      <link>/posts/know-your-medium/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/know-your-medium/</guid>
+      <description>Gerald J Sussman, from the Forward to The Little LISPer:
+In 1967 I took an introductory course in photography. Most of the students (including me) came into that course hoping to learn how to be creative–to take pictures like the ones I admired by artists such as Edward Weston. On the first day the teacher patiently explained the long list of technical skills that he was going to teach us during the term.</description>
+    </item>
+    
+    <item>
+      <title>Making Making Manifesto</title>
+      <link>/posts/making-making-manifesto/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/making-making-manifesto/</guid>
+      <description>tl;dr Work towards more production-like feedback sooner
+Engineers make stuff. Considerable thought goes into the stuff we make: designs, prototypes, focus groups, early testers, analytics, A/B tests. Engineers make something else, though, something that gets less thought. We make the making of stuff. There is no one right way to make something, which means someone has to decide how to make it. Making making is the decision(s) about how to make something.</description>
+    </item>
+    
+    <item>
+      <title>Put Yourself Out of Business</title>
+      <link>/posts/put-yourself-out-of-business/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/put-yourself-out-of-business/</guid>
+      <description>A simple one this week:
+ As a programmer, it is your job to put yourself out of business. What you do today can be automated tomorrow.
+– Doug McIlroy
+ </description>
+    </item>
+    
+    <item>
+      <title>RIP TDD</title>
+      <link>/posts/rip-tdd/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rip-tdd/</guid>
+      <description>This is a highly sarcastic post by Kent Beck about the death of TDD. Enjoy!
+RIP TDD by Kent Beck &amp;ndash; April 29, 2014 at 9:10am
+DHH has consigned TDD to the scrapheap of history. I&amp;#39;m sad, not because I rescued it from the scrapheap of history in the first place, but because now I need to hire new techniques to help me solve many of my problems during programming:</description>
+    </item>
+    
+    <item>
+      <title>Reactive Manifesto by Jonas Bonér</title>
+      <link>/posts/reactive-manifesto-by-jonas-bon%C3%A9r/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/reactive-manifesto-by-jonas-bon%C3%A9r/</guid>
+      <description>Prior issues have focused on some very old philosophies. Here is a brand new one:
+From the Reactive Manifesto by Jonas Bonér
+Reactive Systems are:
+Responsive: The system responds in a timely manner if at all possible. Responsiveness is the cornerstone of usability and utility, but more than that, responsiveness means that problems may be detected quickly and dealt with effectively. Responsive systems focus on providing rapid and consistent response times, establishing reliable upper bounds so they deliver a consistent quality of service.</description>
+    </item>
+    
+    <item>
+      <title>Simplicity</title>
+      <link>/posts/simplicity/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/simplicity/</guid>
+      <description>XP teams prefer simple solutions where possible. Here are four criteria used to evaluate the simplicity of a design:
+ Appropriate for the intended audience.It doesn&amp;#39;t matter how brilliant and elegant a piece of design is; if the people who need to work with it don&amp;#39;t understand it, it isn&amp;#39;t simple for them. Communicative. Every idea that needs to be communicated is represented in the system. Like words in a vocabulary, the elements of the system communicate to future readers.</description>
+    </item>
+    
+    <item>
+      <title>Simplicity, Clarity, Generality</title>
+      <link>/posts/simplicity-clarity-generality/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/simplicity-clarity-generality/</guid>
+      <description>From the introduction to The Practice of Programming by Brian W. Kernighan and Rob Pike
+Have you ever&amp;hellip;
+wasted a lot of time coding the wrong algorithm? used a data structure that was too complicated? tested a program but missed an obvious problem? spent a day looking for a bug you should have found in five minutes? needed to make a program run three times faster and use less memory? struggled to move a program from a workstation to a PC, or vice versa?</description>
+    </item>
+    
+    <item>
+      <title>The Perfect Language</title>
+      <link>/posts/perfect-language/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/perfect-language/</guid>
+      <description>I had some conversations recently about the “perfect language,” I found this great quote from Yukihiro Matsumoto, father of Ruby:
+Language designers want to design the perfect language. They want to be able to say, &amp;#34;My language is perfect. It can do everything.&amp;#34; But it&amp;#39;s just plain impossible to design a perfect language, because there are two ways to look at a language. One way is by looking at what can be done with that language.</description>
+    </item>
+    
+    <item>
+      <title>The Three Virtues</title>
+      <link>/posts/three-virtues/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/three-virtues/</guid>
+      <description>From http://threevirtues.com/
+According to Larry Wall, the original author of the Perl programming language, there are three great virtues of a programmer; Laziness, Impatience and Hubris
+Laziness: The quality that makes you go to great effort to reduce overall energy expenditure. It makes you write labor-saving programs that other people will find useful and document what you wrote so you don&amp;#39;t have to answer so many questions about it.
+Impatience: The anger you feel when the computer is being lazy.</description>
+    </item>
+    
+    <item>
+      <title>The Twelve-Factor App</title>
+      <link>/posts/twelvefactor-app/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/twelvefactor-app/</guid>
+      <description>I was talking to a friend of mine this week and he pointed me to something I&amp;#39;d never heard of before. The Twelve-Factor App from Heroku. I will share the core of the philosophy and the 12 factors, but I encourage you to read them in detail at http://12factor.net/. Lots of great takeaways here.
+From The Introduction:
+In the modern era, software is commonly delivered as a service: called web apps, or software-as-a-service.</description>
+    </item>
+    
+    <item>
+      <title>The Two Ways of Software Design (guest post by Roy van de Water)</title>
+      <link>/posts/two-ways-of-software-design-guest-post-by-roy-van-de-water/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/two-ways-of-software-design-guest-post-by-roy-van-de-water/</guid>
+      <description>From The Art of UNIX Programming by Eric S. Raymond, which references The Emperor&amp;#39;s Old Clothes, CACM
+ There are two ways of constructing a software design. One is to make it so simple that there are obviously no deficiencies; the other is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.
+– C. A. R. Hoare
+ </description>
+    </item>
+    
+    <item>
+      <title>The UNIX Philosophy by Mike Gancarz</title>
+      <link>/posts/unix-philosophy-by-mike-gancarz/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/unix-philosophy-by-mike-gancarz/</guid>
+      <description> Small is beautiful. Make each program do one thing well. Build a prototype as soon as possible. Choose portability over efficiency. Store data in flat text files. Use software leverage to your advantage. Use shell scripts to increase leverage and portability. Avoid captive user interfaces. Make every program a filter.  </description>
+    </item>
+    
+    <item>
+      <title>The way to learn to program well...</title>
+      <link>/posts/way-to-learn-to-program-well.../</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/way-to-learn-to-program-well.../</guid>
+      <description>From The Elements of Programming Style by Brian W. Kernighan and P.J. Plauger
+ Good programming cannot be taught by preaching generalities. The way to learn to program well is by seeing, over and over, how real programs can be improved by the application of a few principles of good practice and a little common sense. Practice in critical reading leads to skill in rewriting, which in turn leads to better writing.</description>
+    </item>
+    
+    <item>
+      <title>What makes a good engineering culture?</title>
+      <link>/posts/what-makes-a-good-engineering-culture/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/what-makes-a-good-engineering-culture/</guid>
+      <description>The engineering culture of a company is hugely influential in the kind and quantity of innovation it produces, along with other factors such as quality of code, speed of idea to production, feedback loop, etc.
+Here are some great videos of Spotify&amp;#39;s engineering culture and their current journey.
+https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/
+https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/
+Also, check out the first answer to &amp;#34;What makes a good engineering culture?&amp;#34; on quora. Edmond Lau gives deep and comprehensive answer.</description>
+    </item>
+    
+    <item>
+      <title>Why Firing Brilliant Assholes Is Required to Build a Great Engineering Culture</title>
+      <link>/posts/why-firing-brilliant-assholes-is-required-to-build-a-great-engineering-culture/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/why-firing-brilliant-assholes-is-required-to-build-a-great-engineering-culture/</guid>
+      <description>Why Firing Brilliant Assholes Is Required to Build a Great Engineering Culture
+I don&amp;#39;t agree with all Joe&amp;#39;s recommendations, but he has some great points in here.
+I won&amp;#39;t repost the whole thing, but you should give it a read.</description>
+    </item>
+    
+    <item>
+      <title>Worse is Better by Richard P. Gabriel</title>
+      <link>/posts/worse-is-better-by-richard-p.-gabriel/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/worse-is-better-by-richard-p.-gabriel/</guid>
+      <description>Simplicity
+The design must be simple, both in implementation and interface. It is more important for the implementation to be simple than the interface. Simplicity is the most important consideration in a design.
+Correctness
+The design must be correct in all observable aspects. It is slightly better to be simple than correct.
+Consistency
+The design must not be overly inconsistent. Consistency can be sacrificed for simplicity in some cases, but it is better to drop those parts of the design that deal with less common circumstances than to introduce either complexity or inconsistency in the implementation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Design on Programming Philosophy</title>
+    <link>/tags/software-design/</link>
+    <description>Recent content in Software Design on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Sep 2018 12:21:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code As Design</title>
+      <link>/posts/2018-09-03_code-as-design/</link>
+      <pubDate>Mon, 03 Sep 2018 12:21:00 +0000</pubDate>
+      
+      <guid>/posts/2018-09-03_code-as-design/</guid>
+      <description>“worm&amp;#39;s eye-view photography of ceiling” by Joshua Sortino on Unsplash
+In 1992 Jack Reeves published an essay What Is Software Design? in the C++ Journal.
+His basic premise is: “that final source code is the real software design.”
+He goes on to explain… &amp;gt; “The final goal of any engineering activity is some type of documentation. When a design effort is complete, the design documentation is turned over to the manufacturing team.</description>
+    </item>
+    
+  </channel>
+</rss>

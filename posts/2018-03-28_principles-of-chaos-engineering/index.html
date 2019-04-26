@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Principles of Chaos Engineering :: Programming Philosophy — Understanding the Fundamental Nature of Programming</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="“An overhead shot of a heap of scissors, knives, hammers and other tools” by Ashim D’Silva on Unsplash
+From Principles of Chaos Engineering &amp;gt; Advances in large-scale, distributed software systems are changing the game for software engineering. As an industry, we are quick to adopt practices that increase flexibility of development and velocity of deployment. An urgent question follows on the heels of these benefits: How much confidence we can have in the complex systems that we put into production?"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/2018-03-28_principles-of-chaos-engineering/" />
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Principles of Chaos Engineering :: Programming Philosophy — Understanding the Fundamental Nature of Programming" />
+<meta name="twitter:description" content="“An overhead shot of a heap of scissors, knives, hammers and other tools” by Ashim D’Silva on Unsplash
+From Principles of Chaos Engineering &amp;gt; Advances in large-scale, distributed software systems are changing the game for software engineering. As an industry, we are quick to adopt practices that increase flexibility of development and velocity of deployment. An urgent question follows on the heels of these benefits: How much confidence we can have in the complex systems that we put into production?" />
+<meta name="twitter:site" content="/" />
+<meta name="twitter:creator" content="Jade Meskill" />
+<meta name="twitter:image" content="">
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Principles of Chaos Engineering :: Programming Philosophy — Understanding the Fundamental Nature of Programming">
+<meta property="og:description" content="“An overhead shot of a heap of scissors, knives, hammers and other tools” by Ashim D’Silva on Unsplash
+From Principles of Chaos Engineering &amp;gt; Advances in large-scale, distributed software systems are changing the game for software engineering. As an industry, we are quick to adopt practices that increase flexibility of development and velocity of deployment. An urgent question follows on the heels of these benefits: How much confidence we can have in the complex systems that we put into production?" />
+<meta property="og:url" content="/posts/2018-03-28_principles-of-chaos-engineering/" />
+<meta property="og:site_name" content="Principles of Chaos Engineering" />
+<meta property="og:image" content="">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+<meta property="article:published_time" content="2018-03-28 01:22:32.042 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+</head>
+<body class="dark-theme">
+<div class="container">
+  <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+  <div class="content">
+    
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/2018-03-28_principles-of-chaos-engineering/">Principles of Chaos Engineering</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2018-03-28
+        </span>
+      
+      <span class="post-author">— Written by Jade Meskill</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/chaos-engineering/">Chaos Engineering</a>&nbsp;
+        
+          #<a href="/tags/programming/">Programming</a>&nbsp;
+        
+          #<a href="/tags/programming-philosophy/">Programming Philosophy</a>&nbsp;
+        
+          #<a href="/tags/devops/">DevOps</a>&nbsp;
+        
+      </span>
+    
+
+    
+
+    <div class="post-content">
+      <p><img src="/posts/2018-03-28_principles-of-chaos-engineering/images/1." alt="image" /></p>
+
+<p>“An overhead shot of a heap of scissors, knives, hammers and other tools” by <a href="https://unsplash.com/@randomlies?utm_source=medium&amp;amp;utm_medium=referral">Ashim D’Silva</a> on <a href="https://unsplash.com?utm_source=medium&amp;amp;utm_medium=referral">Unsplash</a></p>
+
+<p>From <a href="http://www.principlesofchaos.org/">Principles of Chaos Engineering</a>
+&gt; <em>Advances in large-scale, distributed software systems are changing the game for software engineering. As an industry, we are quick to adopt practices that increase flexibility of development and velocity of deployment. An urgent question follows on the heels of these benefits: How much confidence we can have in the complex systems that we put into production?<br />
+&gt;<br />
+&gt;  … An empirical, systems-based approach addresses the chaos in distributed systems at scale and builds confidence in the ability of those systems to withstand realistic conditions. We learn about the behavior of a distributed system by observing it during a controlled experiment. We call this Chaos Engineering.</em></p>
+
+<p>Those people over at Netflix do know a thing or two about scaling. As someone who is building a complex (and sometimes complicated), distributed system, these simple yet challenging principles seem very helpful. I will be trying them out to see how they change the work we are doing at Octoblu.</p>
+
+<p>Netflix has <a href="http://techblog.netflix.com/2014/09/introducing-chaos-engineering.html">blogged about Chaos Engineering in the past</a>, and <a href="http://techblog.netflix.com/2015/09/chaos-engineering-upgraded.html">recently updated on their progress</a>.<em>Originally published at</em> <a href="http://tinyletter.com/programmingphilosophy/letters/principles-of-chaos-engineering"><em>tinyletter.com</em></a><em>.</em></p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/posts/2018-04-02_dont-be-the-mad-bomber/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Don’t Be The Mad Bomber</span>
+              </a>
+            </span>
+          
+          
+            <span class="button next">
+              <a href="/posts/2018-03-28_computer-languages-history-by-%C3%A9ric-l%C3%A9v%C3%A9nez/">
+                <span class="button__text">Computer Languages History by Éric Lévénez</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+    </div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" width="44" height="44" viewBox="0 0 44 44">
+  <polyline fill="none" stroke="#000" stroke-width="2" points="15 8 29.729 22.382 15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">programming philosophy</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+  
+</div>
+
+</body>
+</html>

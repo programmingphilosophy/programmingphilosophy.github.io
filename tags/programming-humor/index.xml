@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Humor on Programming Philosophy</title>
+    <link>/tags/programming-humor/</link>
+    <description>Recent content in Programming Humor on Programming Philosophy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Nov 2018 15:48:39 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/programming-humor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I was gonna tell you a joke about UDP…</title>
+      <link>/posts/2018-11-05_i-was-gonna-tell-you-a-joke-about-udp/</link>
+      <pubDate>Mon, 05 Nov 2018 15:48:39 +0000</pubDate>
+      
+      <guid>/posts/2018-11-05_i-was-gonna-tell-you-a-joke-about-udp/</guid>
+      <description>But you might not get it.
+“blue plastic robot toy” by Rock&amp;#39;n Roll Monkey on Unsplash
+groan
+Seriously though, I’ve had one crazy month and could use a good laugh (not like that bad one above). &amp;gt; 1972 — Dennis Ritchie invents a powerful gun that shoots both forward and backward simultaneously. Not satisfied with the number of deaths and permanent maimings from that invention he invents C and Unix.</description>
+    </item>
+    
+  </channel>
+</rss>
